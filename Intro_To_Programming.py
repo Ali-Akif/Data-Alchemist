@@ -53,3 +53,21 @@ engravement = "jeanmichel<3"
 
 price = solid_gold * (solid_gold_price + costengravement * len(engravement)) + (not solid_gold) * (basic_price + costengravement * len(engravement))
 print(price)
+
+#----- Conditions and Conditional Statements -----
+
+if 1 <= pi_integer <= 3:
+    print("coucou") # I don't need much in this chapter, I know theses shit
+
+# ----- Intro to List -----
+liste = []
+print(liste[:3]) # First 3
+print(liste[-2:]) # Last 2
+liste.remove("michel") #remove "michel"
+liste.append("michel") #add "michel"
+print(min(liste), max(liste)) #print the minimal and maximal value
+print(sum(liste)) # add everything in the list
+print(sum(liste[:5])/5) # sum of the five first and divide it by 5
+
+test_ratings = [1, 2, 3, 4, 5]
+test_liked = [i>=4 for i in test_ratings] #False False False True True
