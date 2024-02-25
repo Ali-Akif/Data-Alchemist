@@ -28,7 +28,7 @@ This dictionnary will help me find information faster on the kaggle Python Funda
 6 : Strings and Dictionaries
     \, """...""", end='', string[0], len(), [char + '!' for char in planet], .upper(), .lower(), .index(), startswith(), endswith(), .split(), str.join(), str.format() ( "{} ... {} ..".format(a, b)),
     
-    Dictionnareis are data structure for mappings key to values.
+    Dictionnaries are data structure for mappings key to values.
     numbers = {'one': 1, 'two':2, 'three':3}, numbers['eleven'] = 11
     # {'one': 1, 'two': 2, 'three': 3, 'eleven': 11}
     numbers['one'] = 'Pluto'
@@ -51,4 +51,4 @@ This dictionnary will help me find information faster on the kaggle Python Funda
         print("{} begins with \"{}\"".format(planet.rjust(10), initial))
 
 7 : Libraries
-    
+    import, dir(), import as
