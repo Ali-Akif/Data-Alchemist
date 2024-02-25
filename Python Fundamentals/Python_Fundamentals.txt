@@ -1,0 +1,10 @@
+This dictionnary will help me find information faster on the kaggle Python Fundamentals free course.
+
+1 : Hello Python
+    print(), =, PEMDAS operations ope, type(), float() and int(), min(), max(), abs().
+
+2 : Functions and Getting help
+    help() ( holy shit it's really usefull actually ), def...() docstring, print(sep=''), def(who='Colin'), max(key=), round(num, -1),
+
+3 : Booleans and Conditionals
+    
